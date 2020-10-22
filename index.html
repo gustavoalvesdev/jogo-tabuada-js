@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <title>Jogo da Tabuada</title>
+        <meta name="viewport" conntent="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body onload="resetar()">
+        
+        <div class="first-number">0</div>
+        <!-- first-number -->
+        <div class="symbol">x</div>
+        <!-- symbol -->
+        <div class="second-number">0</div>
+        <!-- second-number -->
+        <div class="symbol">=</div>
+        <!-- symbol-->
+        <input type="number" class="result" maxlength="5" />
+        <!-- result -->
+        <button onclick="verificar()">Verificar</button>
+
+        <br /><br /><br /><br />
+
+        <p>ACERTOS: <strong class="acertos">0</strong></p>
+        <p>ACERTOS: <strong class="erros">0</strong></p>
+
+        <script src="script.js"></script>
+    </body>
+</html>
